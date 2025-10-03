@@ -1,12 +1,11 @@
 {
   "name": "ai-sdk-gemini-test",
   "version": "1.0.0",
-  "description": "Test script using Vercel AI SDK with Google Gemini",
+  "description": "Test script using Vercel AI SDK, Google Gemini and Github MCP",
   "type": "module",
   "main": "script.js",
   "scripts": {
-    "start": "node script.js",
-    "test": "node script.js"
+    "start": "node script.js"
   },
   "dependencies": {
     "ai": "^5.0.0",

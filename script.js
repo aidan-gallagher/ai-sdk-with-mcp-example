@@ -43,6 +43,10 @@ async function main() {
 
     // Print the answer
     console.log(text);
+
+    if (mcpClient) {
+      await mcpClient.close();
+    }
 }
 
 main()
