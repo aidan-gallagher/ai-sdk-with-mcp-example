@@ -44,6 +44,7 @@ async function main() {
     // Print the answer
     console.log(text);
 
+    // Close MCP client
     if (mcpClient) {
       await mcpClient.close();
     }
